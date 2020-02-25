@@ -10,7 +10,7 @@ group :test do
   gem 'guard'
   gem 'guard-rspec'
   gem 'jsonlint'
-  gem 'rake'
+  gem 'rake', '>= 12.3.3'
   gem 'rspec'
   gem 'timecop'
   gem 'pry-byebug'
